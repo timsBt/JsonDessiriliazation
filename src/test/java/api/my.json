@@ -1,0 +1,25 @@
+{
+  "epkId": "123234354345656435345",
+  "requestSimpleDocuments": [
+    {
+      "id": "5dsfdf-2ertert-34fedfer-3453-effd",
+      "simpleDocumentName": "Акт сверки расчетов по контракту",
+      "requestRelevanceCriteria": [
+        {
+          "relevanceCriterion": {
+            "id": "5dsfdf-2ertert-34fedfer-3453-effd",
+            "name": "Дата договора",
+            "key": "ContractDate",
+            "isDate": true
+          },
+          "value": "2024-11-30",
+          "comparisonOperation": {
+            "id": "5dsfdf-2ertert-34fedfer-3453-effd",
+            "operationCode": "<=",
+            "description": "Меньше или равно"
+          }
+        }
+      ]
+    }
+  ]
+}
